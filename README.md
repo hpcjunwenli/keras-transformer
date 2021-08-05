@@ -1,6 +1,8 @@
 Keras-Transformer
 =================
 
+This is a fork of the [original keras transformer package](https://github.com/kpot/keras-transformer), with functionality specific for irregular length time series.
+
 Keras-transformer is a Python library implementing nuts and bolts,
 for building (Universal) Transformer models using [Keras](http://keras.io),
 and equipped with [examples](#language-modelling-examples-with-bert-and-gpt)
@@ -55,7 +57,7 @@ Installation
 ------------
 To install the library you need to clone the repository
 
-    git clone https://github.com/kpot/keras-transformer.git
+    git clone https://github.com/ExpectationMax/keras-transformer.git
 
 then switch to the cloned directory and run pip
 
